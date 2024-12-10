@@ -18,7 +18,7 @@
 :mag: Check out my Spotify Streaming dashboard on [Tableau Public]  
 
 ## Tools Used
-** Excel:** Used to clean data before importing to Tableau.
+**:bar_chart: Excel:** Used to clean data before importing to Tableau.
 **:art: Tableau:** A powerful tool for creating data visualizations and business intelligence dashboards, enabling insightful analysis and reporting.  
 **:pencil2: draw.io:** Used to sketch the container structures for dashboard design.  
 **:computer: Visual Studio Code:** A lightweight, versatile code editor. I utilized Visual Studio Code to edit project scripts and manage images, ensuring seamless integration and synchronization with GitHub for version control and collaboration.  
@@ -31,8 +31,12 @@ As a music lover,
 - Connected the dataset to Tableau and conducted an initial inspection to verify data quality and ensure accurate data type mapping.
 - Explored the data using Tableau worksheets to understand relationships and potential insights.
 - Data cleaning:
-  - Music_Streaming_Hisotry and Podcast_Streaming_History: Updated the data to align their columns. Unioned the two files in Tableau.
-  - Genre: Splitted genre by ',', then used Power Query to unpivot genres so there's only one genre for artist.
+  - *Music_Streaming_Hisotry* and *Podcast_Streaming_History*: Standardized column structures and unioned the files in Tableau for seamless integration.
+  - *Cleaned_Artist_Genre*:
+    - Split genres by commas and utilized **Power Query** to unpivot them, ensuring each row represents a single genre per artist.  
+    - Trimmed whitespace and standardized genre names, consolidating 'zhongguo feng' and 'mainland china pop' under 'mandopop'.  
+    - Removed duplicate combinations of artists and genres to maintain data integrity.  
+
 ## :three: Build Charts  
 **:white_check_mark: Chart Selection:** Analyzed user requirements to select the most effective chart types for presenting data.  
 **:triangular_ruler: Template Design:** Created a reusable template defining the following:  
