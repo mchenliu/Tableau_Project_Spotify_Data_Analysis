@@ -13,7 +13,10 @@
 # Dashboard | Overview
 # Dashboard | Details
 # Introducation
-📣 In this project, I used dataset from my [Python Spotify Analysis Project](https://github.com/mchenliu/Capstone_Project_Spotify_Data_Analysis) to create a set of dynamic dashboard to uncover insights into my listening habits.
+📣 In this project, I used dataset from my [Python Spotify Analysis Project](https://github.com/mchenliu/Capstone_Project_Spotify_Data_Analysis) to create a set of dynamic dashboard to uncover insights into my listening habits.  
+
+:mag: Check out my Spotify Streaming dashboard on [Tableau Public]  
+
 ## Tools Used
 **:art: Tableau:** A powerful tool for creating data visualizations and business intelligence dashboards, enabling insightful analysis and reporting.  
 **:pencil2: draw.io:** Used to sketch the container structures for dashboard design.  
@@ -34,6 +37,27 @@ As a fan of nostalgia, I want to see the oldest tracks in my history so I can re
 
 Details: Add a filter for track release year (if available).
 ## :two: Build Data Source
-## :three: Build Charts
-## :four: Dashboard Build
-# Conclusion
+- Connected the dataset to Tableau and conducted an initial inspection to verify data quality and ensure accurate data type mapping.
+- Explored the data using Tableau worksheets to understand relationships and potential insights.
+## :three: Build Charts  
+**:white_check_mark: Chart Selection:** Analyzed user requirements to select the most effective chart types for presenting data.  
+**:triangular_ruler: Template Design:** Created a reusable template defining the following:  
+  - Colors: `#03c4a1`, `#c52a87`, `#777777` and `#f5f5f5`
+  - Font: Trebuchet MS
+  - Background: Dark theme  
+
+**:1234: Calculated fields** developed to enhance chart functionality:  
+**:abacus: Charts Used**  
+Each chart type was selected for its ability to effectively communicate specific insights:
+## :four: Dashboard Build  
+**Overview Dashboard**  
+
+**:bricks: Structure:**  
+**:paintbrush: Design and Build:**  
+
+
+**Details Dashboard**  
+**:bricks: Structure:**  
+**:paintbrush: Design and Build:**
+# Conclusion  
+:mag: Explore the full dashboards on 
