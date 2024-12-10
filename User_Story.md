@@ -21,3 +21,12 @@ The artist preference analysis will focus on artist-specific metrics, including:
 - Examine the correlation between skip rate and total playtime for the top 20 artists and the top 20 podcast shows.  
 
 ## :microscope: Detailed View
+Provide a comprehensive list of all streaming history with necessary information such as show name, epsidoe name, artist name, album name and track name.  
+
+## :video_game: Design & Interactivity Requirements
+Dashboard Dynamic  
+- Provide users with the ability to navigate between the dashboards easily.  
+- Make the charts and graphs interactive, enabling users to filter data using the charts.
+
+Data Filters  
+- Allow users to filter data by show name, episode name, artist name, album name and track name.
