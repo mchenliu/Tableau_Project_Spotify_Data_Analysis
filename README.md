@@ -24,25 +24,15 @@
 **:octopus: Git & Github:** My go-to for version control and tracking my project progress.  
 # Steps to Build Dashboards
 ## :one: Define User Requirements
-As a music lover, I want to know which artists I listened to the most each month so I can track how my music taste evolves over time.
+As a music lover, 
 
-Details: Include top artists, their play counts, and trends month-over-month.
-As a user, I want to analyze my listening duration for each day of the week so I can find my peak music consumption times.
-
-Details: Visualize hours with a heatmap or bar chart.
-As a playlist curator, I want to see which tracks I skipped most often so I can refine my playlists.
-
-Details: Include skip rates, track names, and reasons (e.g., backbtn, endplay).
-As a fan of nostalgia, I want to see the oldest tracks in my history so I can relive older moments.
-
-Details: Add a filter for track release year (if available).
 ## :two: Build Data Source
 - Connected the dataset to Tableau and conducted an initial inspection to verify data quality and ensure accurate data type mapping.
 - Explored the data using Tableau worksheets to understand relationships and potential insights.
 ## :three: Build Charts  
 **:white_check_mark: Chart Selection:** Analyzed user requirements to select the most effective chart types for presenting data.  
 **:triangular_ruler: Template Design:** Created a reusable template defining the following:  
-  - Colors: `#03c4a1`, `#c52a87`, `#777777` and `#f5f5f5`
+  - Colors: `#418dcc`, `#de075a`, `#787878` and `#e3e3e3`
   - Font: Trebuchet MS
   - Background: Dark theme  
 
