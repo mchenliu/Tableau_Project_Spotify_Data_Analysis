@@ -20,7 +20,7 @@
 ## Tools Used
 **:bar_chart: Excel:** Used Power Query to clean data before importing to Tableau.  
 **:art: Tableau:** A powerful tool for creating data visualizations and business intelligence dashboards, enabling insightful analysis and reporting.  
-**:pencil2: draw.io:** Used to sketch the container structures for dashboard design.  
+**:pencil2: draw.io:** Used to sketch the dashboard design and container structures.  
 **:computer: Visual Studio Code:** A lightweight, versatile code editor. I utilized Visual Studio Code to edit project scripts and manage images, ensuring seamless integration and synchronization with GitHub for version control and collaboration.  
 **:octopus: Git & Github:** My go-to for version control and tracking my project progress.  
 # Steps to Build Dashboards
@@ -47,9 +47,11 @@
   1. Detailed list of streaming history (show name, artist name & genre, episode name, track name, date played).
   2. Fully filterable by any column.
 
-This is my dashboard design after assessing the user requirements.  
+After assessing the user requirements, I sketached a blueprint for dashboard design.
+
 *Overview Dashbboard Design*
 ![overview dashboard](/Images/Overview%20Dashboard%20Design.png)  
+
 *Details Dashboard Design*  
 ![details dashboard](/Images/Details%20Dashboard%20Design.png)  
 
