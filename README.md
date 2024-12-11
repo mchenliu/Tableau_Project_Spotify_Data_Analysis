@@ -61,7 +61,8 @@ After assessing the user requirements, I sketached a blueprint for dashboard des
   - *Music_Streaming_Hisotry* and *Podcast_Streaming_History*: Standardized column structures and unioned the files in Tableau for seamless integration.
   - *Cleaned_Artist_Genre*:
     - Split genres by commas and utilized **Power Query** to unpivot them, ensuring each row represents a single genre per artist.  
-    - Trimmed whitespace and standardized genre names, consolidating 'zhongguo feng',' taiwan pop' and 'mainland china pop' under 'mandopop'.  
+    - Trimmed whitespace.
+    - Standardized genre names, consolidating 'malaysian mandopop', 'singaporean mandopop', 'zhongguo feng',' taiwan pop' and 'mainland china pop' under 'mandopop'.  
     - Removed duplicate combinations of artists and genres to maintain data integrity.
 - **Load:** Explored the data using Tableau worksheets to understand relationships and potential insights.
 
