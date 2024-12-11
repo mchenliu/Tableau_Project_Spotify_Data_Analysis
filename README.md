@@ -26,16 +26,16 @@
 # Steps to Build Dashboards
 ## :one: Define User Requirements
 As a music lover, 
-
-## :two: Build Data Source
-- Connected the dataset to Tableau and conducted an initial inspection to verify data quality and ensure accurate data type mapping.
-- Explored the data using Tableau worksheets to understand relationships and potential insights.
-- Data cleaning:
+https://github.com/mchenliu/Tableau_Project_Spotify_Data_Analysis/blob/main/Images/Overview%20Dashboard%20Design.png
+## :two: Build Data Source (ETL)
+- **Extract:** Connected the dataset to Tableau and conducted an initial inspection to verify data quality and ensure accurate data type mapping.
+- **Transform:**
   - *Music_Streaming_Hisotry* and *Podcast_Streaming_History*: Standardized column structures and unioned the files in Tableau for seamless integration.
   - *Cleaned_Artist_Genre*:
     - Split genres by commas and utilized **Power Query** to unpivot them, ensuring each row represents a single genre per artist.  
     - Trimmed whitespace and standardized genre names, consolidating 'zhongguo feng' and 'mainland china pop' under 'mandopop'.  
-    - Removed duplicate combinations of artists and genres to maintain data integrity.  
+    - Removed duplicate combinations of artists and genres to maintain data integrity.
+- **Load:** Explored the data using Tableau worksheets to understand relationships and potential insights.
 
 ## :three: Build Charts  
 **:white_check_mark: Chart Selection:** Analyzed user requirements to select the most effective chart types for presenting data.  
