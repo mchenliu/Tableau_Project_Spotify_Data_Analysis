@@ -30,17 +30,17 @@
   2. Streaming Details View: Enables detailed exploration of individual streaming data.
 
 **🌐 Overview:** Divided into three sections to provide comprehensive metrics:
-  1. Overivew: Key streaming stats:
-    - Total hours played
-    - Average hours played per day
-    - Number of music tracks and podcast episodes played
-    - Location distribution of podcasts and music played
-  2. Genre Analysis:
-    - Genre composition by time of day
+  1. Overivew: Key streaming stats:  
+    - Total hours played  
+    - Average hours played per day  
+    - Number of music tracks and podcast episodes played  
+    - Location distribution of podcasts and music played  
+  2. Genre Analysis:  
+    - Genre composition by time of day  
     - Correlation between genre and total skips
-  3. Artist Preference:
-    - Total playtime by home vs. away
-    - Top 10 artists/ shows by playtime
+  3. Artist Preference:  
+    - Total playtime by home vs. away  
+    - Top 10 artists/ shows by playtime  
     - Relationship between skip rate and total playtime for top 20 artists/ shows.
 
 💡 Streaming Details View:
@@ -62,7 +62,7 @@ After assessing the user requirements, I sketached a blueprint for dashboard des
   - *Cleaned_Artist_Genre*:
     - Split genres by commas and utilized **Power Query** to unpivot them, ensuring each row represents a single genre per artist.  
     - Trimmed whitespace.
-    - Standardized genre names, consolidating 'malaysian mandopop', 'singaporean mandopop', 'zhongguo feng',' taiwan pop' and 'mainland china pop' under 'mandopop'.  
+    - Standardized genre names, consolidating 'malaysian mandopop', 'singaporean mandopop', 'zhongguo feng',' taiwan pop', 'c-pop' and 'mainland china pop' under 'mandopop'.  
     - Removed duplicate combinations of artists and genres to maintain data integrity.
 - **Load:**
   - Loaded the cleaned dataset into Tableau.
