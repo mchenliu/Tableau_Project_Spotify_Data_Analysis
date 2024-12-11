@@ -6,7 +6,7 @@
   - [Tools Used](#tools-used)
 - [Steps to Build Dashboards](#steps-to-build-dashboards)
   - [:one: Define User Requirements](#one-define-user-requirements)
-  - [:two: Build Data Source](#two-build-data-source)
+  - [:two: Build Data Source (ETL)](#two-build-data-source-etl)
   - [:three: Build Charts](#three-build-charts)
   - [:four: Dashboard Build](#four-dashboard-build)
 - [Conclusion](#conclusion)
@@ -18,22 +18,46 @@
 :mag: Check out my Spotify Streaming dashboard on [Tableau Public]  
 
 ## Tools Used
-**:bar_chart: Excel:** Used to clean data before importing to Tableau.
+**:bar_chart: Excel:** Used Power Query to clean data before importing to Tableau.  
 **:art: Tableau:** A powerful tool for creating data visualizations and business intelligence dashboards, enabling insightful analysis and reporting.  
 **:pencil2: draw.io:** Used to sketch the container structures for dashboard design.  
 **:computer: Visual Studio Code:** A lightweight, versatile code editor. I utilized Visual Studio Code to edit project scripts and manage images, ensuring seamless integration and synchronization with GitHub for version control and collaboration.  
 **:octopus: Git & Github:** My go-to for version control and tracking my project progress.  
 # Steps to Build Dashboards
 ## :one: Define User Requirements
-As a music lover, 
-https://github.com/mchenliu/Tableau_Project_Spotify_Data_Analysis/blob/main/Images/Overview%20Dashboard%20Design.png
+**🧑‍💼 Identify Target Audience:** The dashboard is designed for myself to address two primary needs:
+  1. Overivew: Provides high-level insights into key streaming metrics of music tracks and podcast episodes.
+  2. Streaming Details View: Enables detailed exploration of individual streaming data.
+
+**🌐 Overview:** Divided into three sections to provide comprehensive metrics:
+  1. Overivew: Key streaming stats:
+    - Total hours played
+    - Average hours played per day
+    - Number of music tracks and podcast episodes played
+    - Location distribution of podcasts and music played
+  2. Genre Analysis:
+    - Genre composition by time of day
+    - Correlation between genre and total skips
+  3. Artist Preference:
+    - Total playtime by home vs. away
+    - Top 10 artists/ shows by playtime
+    - Relationship between skip rate and total playtime for top 20 artists/ shows.
+
+💡 Streaming Details View:
+  1. Detailed list of streaming history (show name, artist name & genre, episode name, track name, date played).
+  2. Fully filterable by any column.
+
+This is my dashboard design after assessing the user requirements.
+![overview dashboard](/Images/Overview%20Dashboard%20Design.png)  
+![details dashboard](/Images/Details%20Dashboard%20Design.png)  
+
 ## :two: Build Data Source (ETL)
 - **Extract:** Connected the dataset to Tableau and conducted an initial inspection to verify data quality and ensure accurate data type mapping.
 - **Transform:**
   - *Music_Streaming_Hisotry* and *Podcast_Streaming_History*: Standardized column structures and unioned the files in Tableau for seamless integration.
   - *Cleaned_Artist_Genre*:
     - Split genres by commas and utilized **Power Query** to unpivot them, ensuring each row represents a single genre per artist.  
-    - Trimmed whitespace and standardized genre names, consolidating 'zhongguo feng' and 'mainland china pop' under 'mandopop'.  
+    - Trimmed whitespace and standardized genre names, consolidating 'zhongguo feng',' taiwan pop' and 'mainland china pop' under 'mandopop'.  
     - Removed duplicate combinations of artists and genres to maintain data integrity.
 - **Load:** Explored the data using Tableau worksheets to understand relationships and potential insights.
 
