@@ -48,7 +48,9 @@
   2. Fully filterable by any column.
 
 This is my dashboard design after assessing the user requirements.
+*Overview Dashbboard Design*
 ![overview dashboard](/Images/Overview%20Dashboard%20Design.png)  
+*Details Dashboard Design*  
 ![details dashboard](/Images/Details%20Dashboard%20Design.png)  
 
 ## :two: Build Data Source (ETL)
