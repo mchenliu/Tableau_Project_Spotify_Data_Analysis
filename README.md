@@ -47,7 +47,7 @@
   1. Detailed list of streaming history (show name, artist name & genre, episode name, track name, date played).
   2. Fully filterable by any column.
 
-This is my dashboard design after assessing the user requirements.
+This is my dashboard design after assessing the user requirements.  
 *Overview Dashbboard Design*
 ![overview dashboard](/Images/Overview%20Dashboard%20Design.png)  
 *Details Dashboard Design*  
