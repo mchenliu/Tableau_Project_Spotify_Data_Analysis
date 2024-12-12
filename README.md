@@ -59,8 +59,7 @@
   - Explored the data using Tableau worksheets to understand relationships and potential insights.
 
 ## :three: Build Charts  
-**:white_check_mark: Chart Selection:** Analyzed user requirements to select the most effective chart types for presenting data.  
-After assessing the user requirements, I sketached a blueprint for dashboard design.
+**:white_check_mark: Chart Selection:** After assessing the user requirements,I analyzed user requirements to select the most effective chart types for presenting data and sketached a blueprint for dashboard design.
 
 *Overview Dashbboard Design*
 ![overview dashboard](/Images/Overview%20Dashboard%20Design.png)  
