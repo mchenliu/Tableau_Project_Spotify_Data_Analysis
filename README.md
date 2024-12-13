@@ -15,7 +15,7 @@
 # Introducation
 📣 In this project, I used dataset from my [Python Spotify Analysis Project](https://github.com/mchenliu/Capstone_Project_Spotify_Data_Analysis) to create a set of dynamic dashboard to uncover insights into my listening habits.  
 
-:mag: Check out my Spotify Streaming dashboard on [Tableau Public]  
+:mag: Check out my Spotify Streaming dashboard on [Tableau Public](/https://public.tableau.com/app/profile/mei.liu4813/viz/SpotifyDashboard_17338950683000/SpotifyOverview). 
 
 ## Tools Used
 **:bar_chart: Excel:** Used Power Query to clean data before importing to Tableau.  
@@ -85,4 +85,4 @@ Each chart type was selected for its ability to effectively communicate specific
 **:bricks: Structure:**  
 **:paintbrush: Design and Build:**
 # Conclusion  
-:mag: Explore the full dashboards on 
+:mag: Explore the full dashboards on [Spotify Dashboard](/https://public.tableau.com/app/profile/mei.liu4813/viz/SpotifyDashboard_17338950683000/SpotifyOverview).
