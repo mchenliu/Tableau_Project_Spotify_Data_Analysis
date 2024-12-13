@@ -76,13 +76,32 @@
 Each chart type was selected for its ability to effectively communicate specific insights:
 ## :four: Dashboard Build  
 **Overview Dashboard**  
-
 **:bricks: Structure:**  
-**:paintbrush: Design and Build:**  
+- Navigation Bar: Included logo and navigation icons.  
+- Header: Contained a dashboard title and filters.
+- Charts:  
+  - Overview: Displayed .
+  - Genre Analysis: 
+  - Artist and Show Preference: Discovered correlation between artist/ podcast playtime, hours played and location group.  
 
+🖌️ Design and Build:  
+- Planned and sketched the layout in draw.io, defining container structures for clarity.
+- Integrated charts into the Overview Dashboard.
+- Refined the dashboard's design, including colors, text styles, and inner/outer spacing for a polished look.
+- Added filters, dynamic tooltips, and performed thorough testing.
+- Enhanced charts with hierarchies, enabling drill-down functionality and incorporating them into tooltips.
+- Added logos and icons to the navigation bar for a cohesive and branded design.
+  
+*Define different objects in the sketch*  
+[Dashboard design](/Images/Overivew%20Dashboard%20Container%20Design.png)
 
 **Details Dashboard**  
 **:bricks: Structure:**  
+- Navigation bar: Same as Overview Dashboard. 
+-  Header: Simplified without filters.
+
 **:paintbrush: Design and Build:**
+- Created a sketch in draw.io for layout consistency.  
+- 
 # Conclusion  
 :mag: Explore the full dashboards on [Spotify Dashboard](https://public.tableau.com/app/profile/mei.liu4813/viz/SpotifyDashboard_17338950683000/SpotifyOverview).
