@@ -93,7 +93,7 @@ Each chart type was selected for its ability to effectively communicate specific
 - Added logos and icons to the navigation bar for a cohesive and branded design.
   
 *Define different objects in the sketch*  
-[Dashboard design](/Images/Overivew%20Dashboard%20Container%20Design.png)
+[Dashboard_design](/Images/Overivew%20Dashboard%20Container%20Design.png)
 
 **Details Dashboard**  
 **:bricks: Structure:**  
