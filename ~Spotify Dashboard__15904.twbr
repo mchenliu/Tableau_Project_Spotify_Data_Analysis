@@ -42,7 +42,7 @@
       <connection class='federated'>
         <named-connections>
           <named-connection caption='All Streaming History' name='textscan.0dlooq30k24j1l10x06sv1serz2u'>
-            <connection class='textscan' directory='C:/Users/Administrator/Desktop/Tableau_Project_Spotify_Data_Analysis/Dataset' filename='Music_Streaming_History.csv' password='' server='' workgroup-auth-mode='as-is' />
+            <connection class='textscan' directory='Data/Dataset' filename='Music_Streaming_History.csv' password='' server='' workgroup-auth-mode='as-is' />
           </named-connection>
         </named-connections>
         <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='textscan.0dlooq30k24j1l10x06sv1serz2u' name='Cleaed Artist Genre.csv' table='[Cleaed Artist Genre#csv]' type='table'>
@@ -518,7 +518,7 @@
           <field>[Role]</field>
         </drill-path>
       </drill-paths>
-      <extract _.fcp.ObjectModelExtractV2.true...object-id='' _.fcp.VConnDownstreamExtractsWithWarnings.true...user-specific='false' count='-1' enabled='true' units='records'>
+      <extract _.fcp.ObjectModelExtractV2.true...object-id='' _.fcp.VConnDownstreamExtractsWithWarnings.true...user-specific='false' count='-1' enabled='false' units='records'>
         <connection access_mode='readonly' author-locale='en_US' class='hyper' dbname='Data/TableauTemp/#TableauTemp_0jd4ybo0fk75dk18w75db01cn393.hyper' default-settings='hyper' schema='Extract' sslmode='' tablename='Extract' update-time='12/12/2024 09:11:47 AM' username='tableau_internal_user'>
           <_.fcp.ObjectModelEncapsulateLegacy.false...relation name='Cleaed Artist Genre.csv_03C0F793C8464D64A1A4E9643E80A66E' table='[Extract].[Cleaed Artist Genre.csv_03C0F793C8464D64A1A4E9643E80A66E]' type='table' />
           <_.fcp.ObjectModelEncapsulateLegacy.true...relation type='collection'>
@@ -6896,7 +6896,7 @@
       </viewpoint>
       <simple-id uuid='{BD9D1E33-2BB8-4F07-AEEF-2010C73306A0}' />
     </window>
-    <window class='dashboard' maximized='true' name='Spotify | Overview'>
+    <window class='dashboard' name='Spotify | Overview'>
       <viewpoints>
         <viewpoint name='Artist v Location Group'>
           <zoom type='entire-view' />
@@ -6956,9 +6956,9 @@
       <active id='219' />
       <simple-id uuid='{A22AF144-5202-43BF-9A9B-CD3EF8E8CE33}' />
     </window>
-    <window class='dashboard' name='Spotify | Details'>
+    <window class='dashboard' maximized='true' name='Spotify | Details'>
       <viewpoints />
-      <active id='275' />
+      <active id='-1' />
       <simple-id uuid='{C14830A8-D4C3-4AC2-81DB-9A3E05F1E8AC}' />
     </window>
   </windows>
