@@ -95,8 +95,8 @@ Each chart type was selected for its ability to effectively communicate specific
 *Overview dashboard containers design*  
 
 ![Dashboard_design](/Images/Overivew_Dashboard_Containers_Design.png)  
-*Details dashboard containers design*  
 
+*Details dashboard containers design*  
 ![Dashboard_design](/Images/Details_Dashboard_Containers_Design.png)
 
 **Details Dashboard**  
