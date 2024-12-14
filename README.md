@@ -20,10 +20,11 @@
 
 ## Tools Used
 **:bar_chart: Excel:** Used Power Query to clean data before importing to Tableau.  
+**robtot**
 **:art: Tableau:** A powerful tool for creating data visualizations and business intelligence dashboards, enabling insightful analysis and reporting.  
 **:pencil2: draw.io:** Used to sketch the dashboard design and container structures.  
 **:computer: Visual Studio Code:** A lightweight, versatile code editor. I utilized Visual Studio Code to edit project scripts and manage images, ensuring seamless integration and synchronization with GitHub for version control and collaboration.  
-**:octopus: Git & Github:** My go-to for version control and tracking my project progress.  
+**:octocat: Git & Github:** My go-to for version control and tracking my project progress.  
 # Steps to Build Dashboards
 ## :one: Define [User Requirements](/UserStory.md)
 **🧑‍💼 Identify Target Audience:** The dashboard is designed for myself to address two primary needs:
