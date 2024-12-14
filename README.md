@@ -62,10 +62,10 @@
 **:white_check_mark: Chart Selection:** After assessing the user requirements,I analyzed user requirements to select the most effective chart types for presenting data and sketached a blueprint for dashboard design.
 
 *Overview Dashbboard Design*
-![overview dashboard](/Images/Overview%20Dashboard%20Design.png)  
+![overview dashboard](/Images/Overview_Dashboard_Design.png)  
 
 *Details Dashboard Design*  
-![details dashboard](/Images/Details%20Dashboard%20Design.png)  
+![details dashboard](/Images/Details_Dashboard_Design.png)  
 **:triangular_ruler: Template Design:** Created a reusable template defining the following:  
   - Colors: `#418dcc`, `#de075a`, `#787878` and `#e3e3e3`
   - Font: Trebuchet MS
@@ -93,7 +93,10 @@ Each chart type was selected for its ability to effectively communicate specific
 - Added logos and icons to the navigation bar for a cohesive and branded design.
   
 *Overview dashboard containers design*  
-![Dashboard_design](/Images/Overivew_Dashboard_Containers_Design.png)
+
+![Dashboard_design](/Images/Overivew_Dashboard_Containers_Design.png)  
+*Details dashboard containers design*  
+
 ![Dashboard_design](/Images/Details_Dashboard_Containers_Design.png)
 
 **Details Dashboard**  
