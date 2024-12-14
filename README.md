@@ -20,7 +20,7 @@
 
 ## Tools Used
 **:bar_chart: Excel:** Used Power Query to clean data before importing to Tableau.  
-**robtot**
+**🤖 ChatGPT:** Used to genrate logos and serves as assistance for the project.  
 **:art: Tableau:** A powerful tool for creating data visualizations and business intelligence dashboards, enabling insightful analysis and reporting.  
 **:pencil2: draw.io:** Used to sketch the dashboard design and container structures.  
 **:computer: Visual Studio Code:** A lightweight, versatile code editor. I utilized Visual Studio Code to edit project scripts and manage images, ensuring seamless integration and synchronization with GitHub for version control and collaboration.  
