@@ -12,7 +12,11 @@
 - [Challenges Faced](#challenges-faced)
 - [Conclusion](#conclusion)
 # Dashboard | Overview
-# Dashboard | Details
+![Overview_dashboard_gif](/Images/OverviewDashboard.gif)  
+
+# Dashboard | Details  
+![Details_dashboard_gif](/Images/DetailsDashboard.gif)  
+
 # Introducation
 📣 In this project, I used dataset from my [Python Spotify Analysis Project](https://github.com/mchenliu/Capstone_Project_Spotify_Data_Analysis) to create a set of dynamic dashboard to uncover insights into my listening habits.  
 
@@ -42,11 +46,11 @@
     - Correlation between genre and total skips
   3. Artist Preference:  
     - Total playtime by home vs. away  
-    - Top 10 artists/ shows by playtime  
-    - Relationship between skip rate and total playtime for top 20 artists/ shows.
+    - Top 5 artists/ shows by playtime  
+    - Relationship between skip rate and total playtime for top 20 artists/shows.
 
 💡 Streaming Details View:
-  1. Detailed list of streaming history (show name, artist name & genre, episode name, track name, date played).
+  1. Detailed list of streaming history (date played, location, tracks played/skipped, episodes played/skipped and hours played).
   2. Fully filterable by any column.
 
 
