@@ -9,6 +9,7 @@
   - [:two: Build Data Source (ETL)](#two-build-data-source-etl)
   - [:three: Build Charts](#three-build-charts)
   - [:four: Dashboard Build](#four-dashboard-build)
+- [Challenges Faced](#challenges-faced)
 - [Conclusion](#conclusion)
 # Dashboard | Overview
 # Dashboard | Details
