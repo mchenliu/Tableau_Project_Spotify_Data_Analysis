@@ -95,6 +95,7 @@ Each chart type was selected for its ability to effectively communicate specific
 *Define different objects in the sketch*  
 [Dashboard_design](/Images/Overivew%20Dashboard%20Container%20Design.png)
 
+
 **Details Dashboard**  
 **:bricks: Structure:**  
 - Navigation bar: Same as Overview Dashboard. 
