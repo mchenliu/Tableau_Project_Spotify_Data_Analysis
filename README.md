@@ -93,7 +93,8 @@ Each chart type was selected for its ability to effectively communicate specific
 - Added logos and icons to the navigation bar for a cohesive and branded design.
   
 *Overview dashboard containers design*  
-[Dashboard_design](/Images/Overivew_Dashboard_Containers_Design.png)
+![Dashboard_design](/Images/Overivew_Dashboard_Containers_Design.png)
+![Dashboard_design](/Images/Details_Dashboard_Containers_Design.png)
 
 **Details Dashboard**  
 **:bricks: Structure:**  
