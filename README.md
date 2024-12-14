@@ -91,21 +91,29 @@ Each chart type was selected for its ability to effectively communicate specific
 - Added filters, dynamic tooltips, and performed thorough testing.
 - Enhanced charts with hierarchies, enabling drill-down functionality and incorporating them into tooltips.
 - Added logos and icons to the navigation bar for a cohesive and branded design.
-  
-*Overview dashboard containers design*  
 
+*Overview dashboard containers design*  
 ![Dashboard_design](/Images/Overivew_Dashboard_Containers_Design.png)  
 
-*Details dashboard containers design*  
-![Dashboard_design](/Images/Details_Dashboard_Containers_Design.png)
 
 **Details Dashboard**  
 **:bricks: Structure:**  
 - Navigation bar: Same as Overview Dashboard. 
--  Header: Simplified without filters.
+- Header: Simplified without filters.  
+- Filters: Added *** interactive filters above the streaming history details list.
+- Detail Section: Listed streaming history information with drill-down capabilities.
+
 
 **:paintbrush: Design and Build:**
 - Created a sketch in draw.io for layout consistency.  
-- 
+- Integrated filters to enhanced interactivity.
+- Added navigation buttons to facilitate seamless switching between the two dashboards.
+
+*Details dashboard containers design*  
+![Dashboard_design](/Images/Details_Dashboard_Containers_Design.png)  
+
+*Filter containers design*  
+![Filter_design](/Images/Filter_Design.png)  
+
 # Conclusion  
 :mag: Explore the full dashboards on [Spotify Dashboard](https://public.tableau.com/app/profile/mei.liu4813/viz/SpotifyDashboard_17338950683000/SpotifyOverview).
