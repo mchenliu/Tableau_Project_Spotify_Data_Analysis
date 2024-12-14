@@ -6977,7 +6977,7 @@
                         </zone-style>
                       </zone>
                       <zone h='19250' id='138' name='Genre v Skip' show-title='false' w='12070' x='86214' y='18000'>
-                        <layout-cache cell-count-w='2' non-cell-size-w='52' type-h='cell' type-w='cell' />
+                        <layout-cache cell-count-h='5' cell-count-w='2' non-cell-size-h='20' non-cell-size-w='52' type-h='cell' type-w='cell' />
                         <zone-style>
                           <format attr='border-color' value='#000000' />
                           <format attr='border-style' value='none' />
@@ -8229,7 +8229,7 @@
       </viewpoint>
       <simple-id uuid='{BE86F095-FD57-4535-8FF2-B844D79ECF9D}' />
     </window>
-    <window class='worksheet' maximized='true' name='Genre v Time Slot'>
+    <window class='worksheet' name='Genre v Time Slot'>
       <cards>
         <edge name='left'>
           <strip size='160'>
@@ -8345,7 +8345,7 @@
       </viewpoint>
       <simple-id uuid='{2D5C2C25-7C51-43E7-95E3-E3F99AACA93F}' />
     </window>
-    <window class='worksheet' name='Podcast Playtime v Skip Rate'>
+    <window class='worksheet' maximized='true' name='Podcast Playtime v Skip Rate'>
       <cards>
         <edge name='left'>
           <strip size='160'>
@@ -8445,7 +8445,7 @@
           <zoom type='entire-view' />
         </viewpoint>
       </viewpoints>
-      <active id='225' />
+      <active id='160' />
       <simple-id uuid='{A22AF144-5202-43BF-9A9B-CD3EF8E8CE33}' />
     </window>
     <window class='dashboard' name='Spotify | Details'>

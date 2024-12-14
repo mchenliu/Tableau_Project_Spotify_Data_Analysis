@@ -80,7 +80,7 @@
 **:1234: Calculated fields** developed to enhance chart functionality:  
 | Field Name | Formula |  
 |------------|---------|
-| Total Days | DATEDIFF('day',MIN([Date Time]),MAX([Date Time])) |
+| Total Days | DATEDIFF ('day', MIN ([Date Time]), MAX ([Date Time])) |
 | Music Group | IF [Type] ='Music Track' <br> THEN 'Music Tracks' <br> END |
 | Time Slot | IF DATEPART('hour' ,[Date Time]) > 6 AND DATEPART('hour',[Date Time]) < 12 THEN 'Morning' <br> ELSEIF  DATEPART('hour' ,[Date Time]) >=12 AND  DATEPART ('hour',[Date Time]) < 18 THEN 'Afternoon' <br> ELSEIF DATEPART ('hour', [Date Time]) >= 18 AND  DATEPART('hour', [Date Time]) < 24 THEN 'Night' <br> ELSE 'Over Night' <br> END |
 | Music Hours Played | IF [Type] = 'Music Track' <br> THEN [Ms Played]/1000/60/60 <br> ELSE 0 <br> END |
@@ -91,16 +91,40 @@ ____
 **:abacus: Charts Used**  
 Each chart type was selected for its ability to effectively communicate specific insights:  
 
-📈 BAN (Big Ass Numbers) + Line Chart: Ideal for presenting KPIs at a glance. I combined BANs with line charts to show KPIs and trends for tracks vs. episodes over time.  
+- 📈 BAN (Big Ass Numbers) + Line Chart: Ideal for presenting KPIs at a glance. I combined BANs with line charts to show KPIs and trends for tracks vs. episodes over time.  
 ![BAN](/Images/Charts/BAN%20&%20Line.PNG)  
 
-📊 Bar Chart: Effective for visualizing distributions. I used bar chart to highlight top 5 genres.
+- 📊 Bar Chart: Effective for visualizing distributions. I used bar chart to highlight top 5 genres.
 ![Bar](/Images/Charts/Bar.PNG)  
 
-🗺️ Map: Used to illustrate location.  
+- 🗺️ Map: Used to illustrate location.  
 ![Map](/Images/Charts/Map.PNG)  
 
-🍕 Pie Chart: Represented location distribution alongside music tracks vs. podcast episode ratios.
+- 🍕 Pie Chart: Represented location distribution alongside music tracks vs. podcast episode ratios.
+![Pie](/Images/Charts/Pie.PNG)  
+
+- 🔥 Heat Map: Highlighted relationships and distributions between dimensions. The highest percentages and counts were visually emphasized. Two heat maps were created to analyze relationships between:  
+  - Genre vs. Time Slot
+  - Genre vs. Skipped (True/False)  
+
+
+![Heat_map](/Images/Charts/Heatmap1.PNG)  
+
+![Heat_map](/Images/Charts/Heatmap2.PNG)  
+
+- 🔴➖⚪ Barbell Chart: Revealed the location playtime gap across top five artists/ podcast shows, providing a clear view of disparities.  
+
+![Barbell1](/Images/Charts/Barbell1.PNG)  
+
+
+
+![Barbell2](/Images/Charts/Barbell2.PNG)
+
+- 🌌 Scatter Plot: Demonstrated the relationship between hours played and skip rate for music tracks and podcast shows, uncovering potential trends and correlations.  
+
+![Scatter1](/Images/Charts/Scatter1.PNG)  
+
+![Scatter2](/Images/Charts/Scatter2.PNG)  
 
 ## :four: Dashboard Build  
 **Overview Dashboard**  
