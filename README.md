@@ -80,12 +80,28 @@
 **:1234: Calculated fields** developed to enhance chart functionality:  
 | Field Name | Formula |  
 |------------|---------|
-| Day | DATE([Date Time]) |
-|
-
+| Total Days | DATEDIFF('day',MIN([Date Time]),MAX([Date Time])) |
+| Music Group | IF [Type] ='Music Track' <br> THEN 'Music Tracks' <br> END |
+| Time Slot | IF DATEPART('hour' ,[Date Time]) > 6 AND DATEPART('hour',[Date Time]) < 12 THEN 'Morning' <br> ELSEIF  DATEPART('hour' ,[Date Time]) >=12 AND  DATEPART ('hour',[Date Time]) < 18 THEN 'Afternoon' <br> ELSEIF DATEPART ('hour', [Date Time]) >= 18 AND  DATEPART('hour', [Date Time]) < 24 THEN 'Night' <br> ELSE 'Over Night' <br> END |
+| Music Hours Played | IF [Type] = 'Music Track' <br> THEN [Ms Played]/1000/60/60 <br> ELSE 0 <br> END |
+| Music Skip Count | SUM(IF [Type] = 'Music Track' AND [Skipped] = True <br> THEN 1 <br> ELSE 0 <br> END) | 
+| No. of Tracks | COUNT(If [Track Name] <> 'No Track Name'<br> THEN [Track Name] <br> END) |  
+____  
 
 **:abacus: Charts Used**  
-Each chart type was selected for its ability to effectively communicate specific insights:
+Each chart type was selected for its ability to effectively communicate specific insights:  
+
+📈 BAN (Big Ass Numbers) + Line Chart: Ideal for presenting KPIs at a glance. I combined BANs with line charts to show KPIs and trends for tracks vs. episodes over time.  
+![BAN](/Images/Charts/BAN%20&%20Line.PNG)  
+
+📊 Bar Chart: Effective for visualizing distributions. I used bar chart to highlight top 5 genres.
+![Bar](/Images/Charts/Bar.PNG)  
+
+🗺️ Map: Used to illustrate location.  
+![Map](/Images/Charts/Map.PNG)  
+
+🍕 Pie Chart: Represented location distribution alongside music tracks vs. podcast episode ratios.
+
 ## :four: Dashboard Build  
 **Overview Dashboard**  
 **:bricks: Structure:**  
