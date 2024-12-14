@@ -1,4 +1,4 @@
-## Challenge Faced:  
+## Challenges Faced:  
 
 :one: Artist Genre Data Collection Limitation  
 
@@ -15,5 +15,13 @@
     **Impact on Data Integrity:**  The inability to include podcast genres prevented a comprehensive genre analysis across both music artists and podcasts, limiting the depth of the final dashboard.
 
     **Solution:** Podcast genres were excluded from the analysis to maintain data quality and focus on accurate insights for music genres.
+
+:three: Overall Data Collection Limitation
+
+    **Description:** My Spotify account is part of a Duo Family Plan, meaning the streaming history includes data from multiple users.
+
+    **Impact on Data Integrity:**  This dataset does not exclusively represent my personal streaming preferences, which limits its accuracy in reflecting individual habits.
+
+    **Solution:** Despite this limitation, the dataset still provides valuable insights into general trends in my track and podcast preferences. For the purpose of this project, it remains a meaningful and useful dataset.
 
 

@@ -115,5 +115,8 @@ Each chart type was selected for its ability to effectively communicate specific
 *Filter containers design*  
 ![Filter_design](/Images/Filter_Design.png)  
 
+# Challenges Faced
+See challenges faced :point_right: [here](/Challenges_Faced.md).
+
 # Conclusion  
 :mag: Explore the full dashboards on [Spotify Dashboard](https://public.tableau.com/app/profile/mei.liu4813/viz/SpotifyDashboard_17338950683000/SpotifyOverview).
