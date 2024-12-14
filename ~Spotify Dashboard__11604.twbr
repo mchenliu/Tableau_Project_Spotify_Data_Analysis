@@ -8383,7 +8383,7 @@
       </viewpoint>
       <simple-id uuid='{BD9D1E33-2BB8-4F07-AEEF-2010C73306A0}' />
     </window>
-    <window class='worksheet' name='Detailed'>
+    <window class='worksheet' maximized='true' name='Detailed'>
       <cards>
         <edge name='left'>
           <strip size='264'>
@@ -8463,7 +8463,7 @@
       <active id='225' />
       <simple-id uuid='{A22AF144-5202-43BF-9A9B-CD3EF8E8CE33}' />
     </window>
-    <window class='dashboard' maximized='true' name='Spotify | Details'>
+    <window class='dashboard' name='Spotify | Details'>
       <viewpoints>
         <viewpoint name='Detailed' />
       </viewpoints>

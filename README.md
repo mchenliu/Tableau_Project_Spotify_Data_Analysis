@@ -58,7 +58,7 @@
 - **Extract:** Connected the dataset to Tableau and conducted an initial inspection to verify data quality and ensure accurate data type mapping.
 - **Transform:**
   - *Music_Streaming_History* and *Podcast_Streaming_History*: Standardized column structures and unioned the files in Tableau for seamless integration.
-  - *Cleaned_Artist_Genre*:
+  - *Cleaned_Artist_Genre*: Cleaned the columns to ensure each row represents a single genre and added missing genre data for artists. Faced some challenges during data collection; see [Challenges Faced](/Challenges_Faced.md) for details..
 - **Load:**
   - Loaded the cleaned dataset into Tableau.
   - Built a data model by unioning *Music_Streaming_History* and *Podcast_Streaming_History*, renaming it as *All Streaming History*. Established a relationship between *All Streaming History* and *Cleaned_Artist_Genre* by mapping the `artist name` column in both tables.
@@ -78,6 +78,12 @@
   - Background: Dark theme  
 
 **:1234: Calculated fields** developed to enhance chart functionality:  
+| Field Name | Formula |  
+|------------|---------|
+| Day | DATE([Date Time]) |
+|
+
+
 **:abacus: Charts Used**  
 Each chart type was selected for its ability to effectively communicate specific insights:
 ## :four: Dashboard Build  
@@ -106,7 +112,7 @@ Each chart type was selected for its ability to effectively communicate specific
 **:bricks: Structure:**  
 - Navigation bar: Same as Overview Dashboard. 
 - Header: Simplified without filters.  
-- Filters: Added *** interactive filters above the streaming history details list.
+- Filters: Added interactive filters above the streaming history details list.
 - Detail Section: Listed streaming history information with drill-down capabilities.
 
 
