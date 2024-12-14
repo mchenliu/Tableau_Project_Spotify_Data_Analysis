@@ -82,7 +82,7 @@
 |------------|---------|
 | Total Days | DATEDIFF ('day', MIN ([Date Time]), MAX ([Date Time])) |
 | Music Group | IF [Type] ='Music Track' <br> THEN 'Music Tracks' <br> END |
-| Time Slot | IF DATEPART('hour' ,[Date Time]) > 6 AND DATEPART('hour',[Date Time]) < 12 THEN 'Morning' <br> ELSEIF  DATEPART('hour' ,[Date Time]) >=12 AND  DATEPART ('hour',[Date Time]) < 18 THEN 'Afternoon' <br> ELSEIF DATEPART ('hour', [Date Time]) >= 18 AND  DATEPART('hour', [Date Time]) < 24 THEN 'Night' <br> ELSE 'Over Night' <br> END |
+| Time Slot | IF DATEPART('hour', [Date Time]) > 6 AND DATEPART('hour',[Date Time]) < 12 <br> THEN 'Morning' <br> ELSEIF <br> DATEPART('hour', [Date Time]) >= 12 AND  DATEPART ('hour',[Date Time]) < 18 <br> THEN 'Afternoon' <br> ELSEIF <br> DATEPART ('hour', [Date Time]) >= 18 AND  DATEPART('hour', [Date Time]) < 24 <br> THEN 'Night' <br> ELSE 'Over Night' <br> END |
 | Music Hours Played | IF [Type] = 'Music Track' <br> THEN [Ms Played]/1000/60/60 <br> ELSE 0 <br> END |
 | Music Skip Count | SUM(IF [Type] = 'Music Track' AND [Skipped] = True <br> THEN 1 <br> ELSE 0 <br> END) | 
 | No. of Tracks | COUNT(If [Track Name] <> 'No Track Name'<br> THEN [Track Name] <br> END) |  
