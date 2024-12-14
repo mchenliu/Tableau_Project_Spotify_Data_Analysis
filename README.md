@@ -92,9 +92,8 @@ Each chart type was selected for its ability to effectively communicate specific
 - Enhanced charts with hierarchies, enabling drill-down functionality and incorporating them into tooltips.
 - Added logos and icons to the navigation bar for a cohesive and branded design.
   
-*Define different objects in the sketch*  
-[Dashboard_design](/Images/Overivew%20Dashboard%20Container%20Design.png)
-
+*Overview dashboard containers design*  
+[Dashboard_design](/Images/Overivew_Dashboard_Containers_Design.png)
 
 **Details Dashboard**  
 **:bricks: Structure:**  
