@@ -132,7 +132,7 @@ Each chart type was selected for its ability to effectively communicate specific
 - Navigation Bar: Included logo and navigation icons.  
 - Header: Contained a dashboard title and filters.
 - Charts:  
-  - Overview: Displayed .
+  - Overview: Displayed***
   - Genre Analysis: 
   - Artist and Show Preference: Discovered correlation between artist/ podcast playtime, hours played and location group.  
 
@@ -171,4 +171,9 @@ Each chart type was selected for its ability to effectively communicate specific
 See challenges faced :point_right: [here](/Challenges_Faced.md).
 
 # Conclusion  
+
+Through this project, I completed a set of Tableau dashboards from ETL to dashboardboard build. The dahsboards present my primary needs of revealing my streaming preference from 2018 to 2024. With valueable insights that breaks down into music tracks and podcast epdisodes. 
+This dashboard revealed my favourite music genre is Mandarin Pop. Music tracks are played more overall than podcast episodes. There were no episodes played between 2018 and 2020. Music tracks dominant 
+Ubfortunatly, due to data collection limitation, there are some data that cannot be used for further insights.  
+
 :mag: Explore the full dashboards on [Spotify Dashboard](https://public.tableau.com/app/profile/mei.liu4813/viz/SpotifyDashboard_17338950683000/SpotifyOverview).
