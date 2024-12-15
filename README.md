@@ -105,12 +105,12 @@ Each chart type was selected for its ability to effectively communicate specific
 
 - 🔥 Heat Map: Highlighted relationships and distributions between dimensions. The highest percentages and counts were visually emphasized. Two heat maps were created to analyze relationships between:  
   - Genre vs. Time Slot
-  - Genre vs. Skipped (True/False)  
+  - Genre vs. Skipped  
 
 
 ![Heat_map](/Images/Charts/Heatmap1.PNG)  
 
-![Heat_map](/Images/Charts/Heatmap2.PNG)  
+![Heat_map](/Images/Charts/Heatmap2.png)  
 
 - 🔴➖⚪ Barbell Chart: Revealed the location playtime gap across top five artists/ podcast shows, providing a clear view of disparities.  
 
