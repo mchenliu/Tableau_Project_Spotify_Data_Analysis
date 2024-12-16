@@ -2,7 +2,7 @@
 - [Table of Contents](#table-of-contents)
 - [Dashboard | Overview](#dashboard--overview)
 - [Dashboard | Details](#dashboard--details)
-- [Introducation](#introducation)
+- [Introduction](#introduction)
   - [Tools Used](#tools-used)
 - [Steps to Build Dashboards](#steps-to-build-dashboards)
   - [:one: Define User Requirements](#one-define-user-requirements)
@@ -17,14 +17,25 @@
 # Dashboard | Details  
 ![Details_dashboard_gif](/Images/DetailsDashboard.gif)  
 
-# Introducation
-📣 In this project, I used dataset from my [Python Spotify Analysis Project](https://github.com/mchenliu/Capstone_Project_Spotify_Data_Analysis) to create a set of dynamic dashboard to uncover insights into my listening habits.  
+# Introduction
+📣 In this project, I utilized a dataset from my [Python Spotify Analysis Project](https://github.com/mchenliu/Capstone_Project_Spotify_Data_Analysis) to create dynamic dashboards analyzing my listening habits from 2018 to 2024. The goal was to uncover trends in my streaming history while enhancing my data visualization skills using Tableau.
+
+This project involved:
+
+**Data Enrichment:** Using ChatGPT to fill in missing data from the original dataset.  
+**ETL Process:** Employing Excel Power Query for data cleaning and transformation before importing it into Tableau.
+Key insights revealed:
+
+My favorite genre is *Mandarin pop*, and my top artist is *Hebe Tien*, whose tracks I prefer to play at home in New Zealand compared to while traveling.
+My second favorite artist is *JJ Lin*, with a skip rate only half that of Hebe Tien.
+My most-played podcast is *童話裡都是騙人的*, although I skipped this show 50% of the time.
+This project also uncovered challenges in data collection and handling, offering valuable lessons for future analytics endeavors.
 
 :mag: Check out my Spotify Streaming dashboard on [Tableau Public](https://public.tableau.com/app/profile/mei.liu4813/viz/SpotifyDashboard_17338950683000/SpotifyOverview). 
 
 ## Tools Used
 **:bar_chart: Excel:** Used Power Query to clean data before importing to Tableau.  
-**🤖 ChatGPT:** Used to genrate logos and serves as assistance for the project.  
+**🤖 ChatGPT:** Used to generate logos and serves as assistance for the project.  
 **:art: Tableau:** A powerful tool for creating data visualizations and business intelligence dashboards, enabling insightful analysis and reporting.  
 **:pencil2: draw.io:** Used to sketch the dashboard design and container structures.  
 **:computer: Visual Studio Code:** A lightweight, versatile code editor. I utilized Visual Studio Code to edit project scripts and manage images, ensuring seamless integration and synchronization with GitHub for version control and collaboration.  
@@ -32,18 +43,18 @@
 # Steps to Build Dashboards
 ## :one: Define [User Requirements](/UserStory.md)
 **🧑‍💼 Identify Target Audience:** The dashboard is designed for myself to address two primary needs:
-  1. Overivew: Provides high-level insights into key streaming metrics of music tracks and podcast episodes.
+  1. Overview: Provides high-level insights into key streaming metrics of music tracks and podcast episodes.
   2. Streaming Details View: Enables detailed exploration of individual streaming data.
 
 **🌐 Overview:** Divided into three sections to provide comprehensive metrics:
-  1. Overivew: Key streaming stats:  
+  1. Overview: Key streaming stats:  
     - Total hours played  
     - Average hours played per day  
     - Number of music tracks and podcast episodes played  
     - Location distribution of podcasts and music played  
   2. Genre Analysis:  
     - Genre composition by time of day  
-    - Correlation between genre and total skips
+    - Correlation between genre and skip rate by time of day
   3. Artist Preference:  
     - Total playtime by home vs. away  
     - Top 5 artists/ shows by playtime  
@@ -65,7 +76,7 @@
   - Explored the data using Tableau worksheets to understand relationships and potential insights.
 
 ## :three: Build Charts  
-**:white_check_mark: Chart Selection:** After assessing the user requirements,I analyzed user requirements to select the most effective chart types for presenting data and sketached a blueprint for dashboard design.
+**:white_check_mark: Chart Selection:** After assessing the user requirements,I analyzed user requirements to select the most effective chart types for presenting data and sketched a blueprint for dashboard design.
 
 *Overview Dashbboard Design*
 ![overview dashboard](/Images/Overview_Dashboard_Design.png)  
@@ -100,7 +111,7 @@ Each chart type was selected for its ability to effectively communicate specific
 - 🗺️ Map: Used to illustrate location.  
 ![Map](/Images/Charts/Map.PNG)  
 
-- 🍕 Pie Chart: Represented location distribution alongside music tracks vs. podcast episode ratios.
+- 🍕 Donut Chart: Represented location distribution alongside music tracks vs. podcast episode ratios.
 ![Pie](/Images/Charts/Pie.PNG)  
 
 - 🔥 Heat Map: Highlighted relationships and distributions between dimensions. The highest percentages and counts were visually emphasized. Two heat maps were created to analyze relationships between:  
@@ -132,9 +143,16 @@ Each chart type was selected for its ability to effectively communicate specific
 - Navigation Bar: Included logo and navigation icons.  
 - Header: Contained a dashboard title and filters.
 - Charts:  
-  - Overview: Displayed***
+  - Overview:  
+    - KPIs of total hours played, number of music tracks/ podcast shows played over time
+    - Location stats of percentage of hours played between home (New Zealand) and away (All but New Zealand)
   - Genre Analysis: 
-  - Artist and Show Preference: Discovered correlation between artist/ podcast playtime, hours played and location group.  
+    - Top 5 genres
+    - Heatmap to reveal relationship between top 5 genres and time slots over playtime
+    - Heatmap to reveal relationship between top 5 genres and time slots over skip rate
+  - Artist and Show Preference: Discovered correlation between
+    - Artist/ podcast playtime, hours played and location group
+    - Artist/ podcast playtime, hours played and skip rate
 
 🖌️ Design and Build:  
 - Planned and sketched the layout in draw.io, defining container structures for clarity.
@@ -145,7 +163,7 @@ Each chart type was selected for its ability to effectively communicate specific
 - Added logos and icons to the navigation bar for a cohesive and branded design.
 
 *Overview dashboard containers design*  
-![Dashboard_design](/Images/Overivew_Dashboard_Containers_Design.png)  
+![Dashboard_design](/Images/Overview_Dashboard_Containers_Design.png)  
 
 
 **Details Dashboard**  
@@ -158,7 +176,7 @@ Each chart type was selected for its ability to effectively communicate specific
 
 **:paintbrush: Design and Build:**
 - Created a sketch in draw.io for layout consistency.  
-- Integrated filters to enhanced interactivity.
+- Integrated filters to enhance interactivity.
 - Added navigation buttons to facilitate seamless switching between the two dashboards.
 
 *Details dashboard containers design*  
@@ -173,7 +191,7 @@ See challenges faced :point_right: [here](/Challenges_Faced.md).
 # Conclusion  
 
 Through this project, I completed a set of Tableau dashboards from ETL to dashboardboard build. The dahsboards present my primary needs of revealing my streaming preference from 2018 to 2024. With valueable insights that breaks down into music tracks and podcast epdisodes. 
-This dashboard revealed my favourite music genre is Mandarin Pop. Music tracks are played more overall than podcast episodes. There were no episodes played between 2018 and 2020. Music tracks dominant 
+This dashboard revealed my favourite music genre is Mandarin Pop. Music tracks are played more overall than podcast episodes. There were no episodes played between 2018 and 2020. Music tracks are dominant 
 Ubfortunatly, due to data collection limitation, there are some data that cannot be used for further insights.  
 
 :mag: Explore the full dashboards on [Spotify Dashboard](https://public.tableau.com/app/profile/mei.liu4813/viz/SpotifyDashboard_17338950683000/SpotifyOverview).
