@@ -125,8 +125,7 @@ Each chart type was selected for its ability to effectively communicate specific
 
 ![Heat_map](/Images/Charts/Heatmap1.PNG)  
 
-![Heat_map](/Images/Charts/Heatmap2.png)  
-
+![Heat_map2](/Images/Charts/Heatmap2.PNG)  
 - 🔴➖⚪ Barbell Chart: Revealed the location playtime gap across top five artists/ podcast shows, providing a clear view of disparities.  
 
 ![Barbell1](/Images/Charts/Barbell1.PNG)  
