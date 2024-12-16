@@ -29,9 +29,9 @@ This project involved:
 **ETL Process:** Employing Excel Power Query for data cleaning and transformation before importing it into Tableau.
 Key insights revealed:
 
-My favorite genre is *Mandarin pop*, and my top artist is *Hebe Tien*, whose tracks I prefer to play at home in New Zealand compared to while traveling.
-My second favorite artist is *JJ Lin*, with a skip rate only half that of Hebe Tien.
-My most-played podcast is *童話裡都是騙人的*, although I skipped this show 50% of the time.
+My favorite genre is **Mandarin Pop**, and my top artist is **Hebe Tien**, whose tracks I prefer to play at home in New Zealand compared to while traveling.
+My second favorite artist is **JJ Lin**, with a skip rate only half that of Hebe Tien.
+My most-played podcast is **童話裡都是騙人的**, although I skipped this show **50%** of the time.
 This project also uncovered challenges in data collection and handling, offering valuable lessons for future analytics endeavors.
 
 :mag: Check out my Spotify Streaming dashboard on [Tableau Public](https://public.tableau.com/app/profile/mei.liu4813/viz/SpotifyDashboard_17338950683000/SpotifyOverview). 
