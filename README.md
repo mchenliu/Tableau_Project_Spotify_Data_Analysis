@@ -11,6 +11,9 @@
   - [:four: Dashboard Build](#four-dashboard-build)
 - [Challenges Faced](#challenges-faced)
 - [Conclusion](#conclusion)
+  - [Key Insights](#key-insights)
+  - [Limitations](#limitations)
+  - [Final Thoughts](#final-thoughts)
 # Dashboard | Overview
 ![Overview_dashboard_gif](/Images/OverviewDashboard.gif)  
 
@@ -97,6 +100,7 @@ This project also uncovered challenges in data collection and handling, offering
 | Music Hours Played | IF [Type] = 'Music Track' <br> THEN [Ms Played]/1000/60/60 <br> ELSE 0 <br> END |
 | Music Skip Count | SUM (IF [Type] = 'Music Track' AND [Skipped] = True <br> THEN 1 <br> ELSE 0 <br> END) | 
 | No. of Tracks | COUNT (If [Track Name] <> 'No Track Name'<br> THEN [Track Name] <br> END) |  
+| % Genre | { FIXED [Genre] : <br> SUM( [Total Hours Played] ) } / { FIXED : SUM( [Total Hours Played] ) } |
 ____  
 
 **:abacus: Charts Used**  
@@ -186,12 +190,50 @@ Each chart type was selected for its ability to effectively communicate specific
 ![Filter_design](/Images/Filter_Design.png)  
 
 # Challenges Faced
-See challenges faced :point_right: [here](/Challenges_Faced.md).
+The primary challenge in this project was **data collection**. Spotify does not provide genre information for all artists, and the Python Spotipy library used to extract artist genres from Spotify returned incomplete data. Many artists lacked genre information, and none of the podcast shows had genres available.
+
+This lack of data impacted the **integrity and depth** of the analysis. To address this, I used ChatGPT to source missing data for artists and decided to exclude genre analysis for podcast shows entirely.
+
+See more details on challenges faced :point_right: [here](/Challenges_Faced.md).
 
 # Conclusion  
 
-Through this project, I completed a set of Tableau dashboards from ETL to dashboardboard build. The dahsboards present my primary needs of revealing my streaming preference from 2018 to 2024. With valueable insights that breaks down into music tracks and podcast epdisodes. 
-This dashboard revealed my favourite music genre is Mandarin Pop. Music tracks are played more overall than podcast episodes. There were no episodes played between 2018 and 2020. Music tracks are dominant 
-Ubfortunatly, due to data collection limitation, there are some data that cannot be used for further insights.  
+This project successfully created a set of Tableau dashboards that analyze my streaming history from 2018 to 2024, covering both music tracks and podcast episodes. Despite challenges with data collection, the dashboards addressed my primary objective of uncovering trends and preferences in my streaming habits, offering valuable insights.
+
+## Key Insights
+**1. Music vs. Podcasts:**    
+
+- Music tracks dominated my streaming activity, especially from 2018 to 2020 when I hadn’t started streaming podcasts.
+- Once I began streaming podcasts, their longer playtimes resulted in daily hours catching up with music tracks.
+- While traveling, I played more music tracks than podcasts, likely due to the shorter and lighter nature of music tracks, which are better suited for the road.  
+  
+**2. Genre Analysis:**
+- Genre analysis focused solely on music tracks due to limited data for podcasts.
+- **Pop** emerged as my favorite genre, accounting for **50% of my streamed tracks**, with **Mandarin pop** contributing over **5,000 hours**. 
+- Interestingly, **40% of pop tracks** were played during the overnight period, indicating its role as calming background music for sleeping.  
+- Among the top 5 genres, **Hip Hop** had the highest skip rate, particularly in the morning (**37.4%**), reflecting a potential mismatch with my morning mood.  
+  
+**3. Top Artists and Podcasts:**
+
+- My favorite artists are **Hebe Tien** and **JJ Lin**, with similar hours streamed. However, **JJ Lin**'s skip rate was half that of Hebe Tien, suggesting stronger engagement with his tracks.  
+- **One Republic** was an outlier—streamed for an average number of hours but with a high skip rate of **42%**, possibly reflecting my exploratory listening behavior.  
+- For podcasts, my top shows were **童話裡都是騙人的** and **時間的女兒: 八卦歷史**.
+**童話裡都是騙人的** had significantly longer playtime but a higher skip rate, indicating exploration of its content and style.  
+- **時間的女兒: 八卦歷史**, streamed earlier, showed more targeted listening behavior.  
+  
+**4. Location-Based Preferences:**
+
+- Both **童話裡都是騙人的** and **時間的女兒: 八卦歷史** were predominantly played at home in New Zealand, whereas **善嵐慶女** was played equally at home and while traveling. This may be due to its shorter episodes and lighter content, making it more versatile for different settings.
+
+## Limitations
+This project faced challenges due to incomplete data from Spotify, particularly the lack of genre information for podcasts and some artists. To address this, **ChatGPT** was used to fill in missing data, but limitations in sourcing impacted the analysis's depth and precision.
+
+## Final Thoughts
+Despite these limitations, the dashboards achieved the project’s objectives by uncovering meaningful insights into my streaming preferences. They not only highlighted trends and behaviors (e.g., genre preferences, location-based listening habits) but also offered actionable takeaways, such as understanding which content resonates most during specific times and settings.
+
+This project underscores the importance of data enrichment and the potential for iterative improvements in future analyses. The process also strengthened my skills in ETL workflows, Tableau dashboarding, and storytelling through data visualization.
+
+
+ 
 
 :mag: Explore the full dashboards on [Spotify Dashboard](https://public.tableau.com/app/profile/mei.liu4813/viz/SpotifyDashboard_17338950683000/SpotifyOverview).
